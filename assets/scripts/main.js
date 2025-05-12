@@ -67,7 +67,7 @@ function saveRecipesToStorage(recipes) {
  */
 function initFormHandler() {
 	 const form = document.querySelector('form');
-	 const clearBtn = document.getElementById('clear');
+	 const clearBtn = document.getElementById('clear-storage');
 	 form.addEventListener('submit', event => {
     event.preventDefault();                
     const formData = new FormData(form);   

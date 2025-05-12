@@ -90,7 +90,8 @@ function initFormHandler() {
   });
 
 	 clearBtn.addEventListener('click', () => {
-    localStorage.removeItem('recipes');      // B12
+		 localStorage.clear();             
+    //localStorage.removeItem('recipes');      // B12
     document.querySelector('main').innerHTML = ''; // B13
   });
 	// B2. TODO - Get a reference to the <form> element
